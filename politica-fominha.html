@@ -1,0 +1,93 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Privacidade Fominha Mania</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap">
+<style>
+/* Layout: uma coluna de leitura, cabeçalho com o selo do jogo, seções curtas com títulos de marcador de cardápio */
+:root{
+  --bg:#fbf7f1; --card:#ffffff; --fg:#2b2238; --muted:#6d6380; --accent:#5b3ee0; --warm:#e8584e; --line:#e7dfd3;
+  --display:'Lilita One','Trebuchet MS',system-ui,sans-serif;
+  --body:'Nunito Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17131f;--card:#211b2c;--fg:#efe9f6;--muted:#ada3bf;--accent:#a996ff;--warm:#ff8a80;--line:#352d44;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17131f;--card:#211b2c;--fg:#efe9f6;--muted:#ada3bf;--accent:#a996ff;--warm:#ff8a80;--line:#352d44;color-scheme:dark}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font:400 16px/1.65 var(--body);padding:0 16px}
+.wrap{max-width:680px;margin:0 auto;padding-block:40px 64px}
+header{display:flex;gap:16px;align-items:center;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.seal{flex:0 0 auto;width:64px;height:64px;border-radius:16px;background:var(--accent);display:grid;place-items:center}
+.seal svg{width:44px;height:44px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(28px,6vw,38px);line-height:1.05;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px;margin:4px 0 0}
+h2{font-family:var(--display);font-weight:400;font-size:21px;margin:0 0 8px;color:var(--accent);text-wrap:balance}
+section{padding-block:22px;border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:0}
+p{margin:0 0 10px;max-width:65ch}
+ul{margin:0 0 10px;padding-left:20px;display:grid;gap:4px}
+a{color:var(--accent);font-weight:700}
+a:focus-visible{outline:2px solid var(--warm);outline-offset:2px}
+.contact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:4px}
+.contact b{font-weight:700}
+.mail{user-select:all;font-weight:700;color:var(--fg);word-break:break-all}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="seal" aria-hidden="true">
+      <svg viewBox="0 0 64 64"><path d="M10 34 C10 18 54 18 54 34Z" fill="#f2b24e"/><rect x="9" y="35" width="46" height="7" rx="3.5" fill="#6a3418"/><path d="M8 34 h48 l-2 4 h-44z" fill="#ffd23f"/><path d="M11 43 h42 q0 9-21 9 q-21 0-21-9z" fill="#e9a64f"/><circle cx="24" cy="26" r="1.4" fill="#fff6dc"/><circle cx="32" cy="23" r="1.4" fill="#fff6dc"/><circle cx="40" cy="27" r="1.4" fill="#fff6dc"/></svg>
+    </div>
+    <div>
+      <h1>Política de Privacidade do Fominha Mania</h1>
+      <p class="meta">Última atualização: 13 de outubro de 2026 · App: com.fominhamania.jogo</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Resumo</h2>
+    <p>O Fominha Mania é um jogo de culinária. Você não precisa criar conta, e o jogo não pede seu nome, e-mail, fotos, contatos nem localização precisa.</p>
+    <p>O seu progresso, como dinheiro do jogo, dias jogados, melhorias e horta, fica salvo <b>apenas no seu aparelho</b>. Nós não recebemos essas informações.</p>
+  </section>
+
+  <section>
+    <h2>Anúncios</h2>
+    <p>O jogo é gratuito e mostra anúncios do <b>Google AdMob</b>: um banner no rodapé e vídeos com recompensa que você escolhe assistir. Para mostrar e medir os anúncios, o SDK do Google Mobile Ads pode coletar automaticamente:</p>
+    <ul>
+      <li>o ID de publicidade do aparelho;</li>
+      <li>o endereço IP, usado para estimar a localização aproximada;</li>
+      <li>informações do aparelho e do sistema, como modelo, idioma e versão do Android;</li>
+      <li>interações com os anúncios, registros de falhas e dados de diagnóstico.</li>
+    </ul>
+    <p>Esses dados são tratados pelo Google para publicidade, análise e prevenção de fraudes. Veja como o Google usa essas informações em <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+  </section>
+
+  <section>
+    <h2>Seu controle sobre os anúncios</h2>
+    <p>Onde a lei exige, como na União Europeia e no Reino Unido, o jogo pede o seu consentimento antes de mostrar anúncios personalizados.</p>
+    <p>No Android você pode, a qualquer momento, apagar ou redefinir o ID de publicidade e desativar a personalização em <b>Configurações → Google → Anúncios</b>.</p>
+  </section>
+
+  <section>
+    <h2>Crianças</h2>
+    <p>O Fominha Mania não é direcionado a menores de 13 anos e não coleta de propósito dados pessoais de crianças.</p>
+  </section>
+
+  <section>
+    <h2>Seus direitos (LGPD)</h2>
+    <p>Como o progresso do jogo fica só no seu aparelho, você pode apagar tudo desinstalando o app ou limpando os dados dele nas configurações do Android. Para os dados tratados pelo Google, use as opções de anúncios acima ou os controles da sua Conta Google.</p>
+    <p>Se tiver qualquer dúvida sobre privacidade, fale com a gente pelo contato abaixo.</p>
+  </section>
+
+  <section>
+    <h2>Mudanças nesta política</h2>
+    <p>Se esta política mudar, a nova versão será publicada nesta mesma página, com a data atualizada no topo.</p>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <div class="contact">
+      <b>Alex Figueiras, desenvolvedor do Fominha Mania</b>
+      <span>E-mail: <span class="mail">diretoralexfigueiras@gmail.com</span></span>
+    </div>
+  </section>
+</div>
+</html>
