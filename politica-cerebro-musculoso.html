@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacidade Cérebro Musculoso</title>
+<title>Política de Privacidade — Cérebro Musculoso</title>
 <style>
   :root{--bg:#fbf7f1;--card:#fff;--fg:#2b2238;--muted:#6d6380;--accent:#5b3ee0;--line:#e7dfd3}
   @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17131f;--card:#211b2c;--fg:#efe9f6;--muted:#ada3bf;--accent:#a996ff;--line:#352d44}}
@@ -17,90 +17,96 @@
   section{padding:20px 0;border-top:1px solid var(--line)}
   p,li{max-width:65ch}
   ul{padding-left:20px}
+  li + li{margin-top:6px}
   a{color:var(--accent);font-weight:600}
+  .destaque{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:14px 16px;margin:16px 0}
   .contato{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
 </style>
 </head>
 <body>
 <main>
   <h1>Política de Privacidade do Cérebro Musculoso</h1>
-  <p class="meta">Última atualização: 03/11/2026 · App: com.bosyn.cerebromusculoso</p>
+  <p class="meta">Última atualização: 07/11/2026 · App: Cérebro Musculoso: Treino (com.bosyn.cerebromusculoso) · Desenvolvedora: BOSYN</p>
 
   <section>
-    <h2>Resumo</h2>
-    <p>O Cérebro Musculoso é um app de jogos de treino cerebral, feito pela BOSYN. Você não precisa de e-mail nem senha para jogar.</p>
-    <p>Seu progresso (pontos, recordes, XP, dias seguidos e configurações) fica salvo <b>no seu aparelho</b>. Só vai para a internet o que você usar no ranking com amigos, que é opcional, e o que o Google usa para os anúncios.</p>
+    <h2>Apresentação e Compromisso</h2>
+    <p>A <b>BOSYN</b> ("nós", "nosso" ou "desenvolvedora") valoriza a sua privacidade e tem o compromisso de proteger os seus dados pessoais com transparência, segurança e em total conformidade com a <b>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</b> e as políticas para desenvolvedores do <b>Google Play</b>.</p>
+    <p>Esta Política de Privacidade descreve de forma clara quais dados são tratados ao utilizar o aplicativo móvel <b>Cérebro Musculoso: Treino</b>, com qual finalidade e como você pode gerenciar, exportar ou excluir suas informações a qualquer momento.</p>
   </section>
 
   <section>
-    <h2>Ano de nascimento</h2>
-    <p>Na primeira vez que o app abre, ele pergunta só o seu <b>ano de nascimento</b>. Esse ano fica guardado no aparelho e serve para ajustar os anúncios e os recursos à sua idade. Ele não é enviado para nós.</p>
-  </section>
-
-  <section>
-    <h2>Ranking com amigos (opcional)</h2>
-    <p>Se você abrir a área <b>Amigos</b> e escolher um apelido, o app cria uma <b>conta anônima</b>, sem e-mail, sem senha e sem nome real. Nesse caso, guardamos no nosso servidor (serviço Supabase):</p>
+    <h2>1. Dados Tratados no Seu Aparelho (Sem Cadastro Obrigatório)</h2>
+    <p>O Cérebro Musculoso foi desenvolvido para permitir uso completo e offline sem a necessidade de criar contas ou fornecer dados pessoais cadastrais (como nome completo, CPF, telefone ou endereço):</p>
     <ul>
-      <li>um código aleatório que identifica a conta neste aparelho;</li>
-      <li>o <b>apelido</b> que você escolheu;</li>
-      <li>suas partidas: qual jogo, o modo, os pontos de experiência (XP) e a data e hora;</li>
-      <li>os grupos que você criou ou em que entrou, com o nome do grupo e o código de convite.</li>
+      <li><b>Ano de nascimento:</b> Solicitado na primeira abertura do aplicativo e guardado unicamente no armazenamento local do aparelho. Tem a finalidade exclusiva de aplicar as diretrizes de proteção a menores: bloquear recursos sociais online para menores de 13 anos e configurar a classificação etária dos anúncios no Google AdMob (anúncios não personalizados de classificação livre para crianças).</li>
+      <li><b>Progresso do jogo:</b> Pontuação de partidas, XP acumulado, metas diárias, histórico de treino, recordes e preferências de som e tema. Ficam guardados localmente na memória do dispositivo.</li>
     </ul>
-    <p>Só as pessoas que estão no mesmo grupo que você veem o seu apelido, o seu XP e o número de partidas. Não existe chat, foto de perfil nem busca de pessoas: só entra no grupo quem recebe o código.</p>
-    <p>Apelidos e nomes de grupo passam por um filtro de palavras ofensivas.</p>
   </section>
 
   <section>
-    <h2>Anúncios</h2>
-    <p>O app é gratuito e mostra anúncios do <b>Google AdMob</b>: um banner nas telas iniciais, anúncios de tela cheia entre partidas e vídeos com prêmio que você escolhe assistir. Para mostrar e medir os anúncios, o SDK do Google Mobile Ads pode coletar automaticamente:</p>
+    <h2>2. Dados Tratados nos Recursos Online (Ranking de Amigos e Mural)</h2>
+    <p>Para usuários com <b>13 anos ou mais</b> que optam voluntariamente por participar do ranking de amigos e salas virtuais:</p>
     <ul>
-      <li>o ID de publicidade do aparelho;</li>
-      <li>o endereço IP, usado para estimar a localização aproximada;</li>
-      <li>informações do aparelho e do sistema, como modelo, idioma e versão do Android;</li>
-      <li>interações com os anúncios, registros de falhas e dados de diagnóstico.</li>
+      <li><b>Apelido público (Nickname):</b> Nome fictício escolhido pelo usuário para identificá-lo perante os membros dos grupos em que entrar por meio de código de convite.</li>
+      <li><b>Histórico de partidas e XP do grupo:</b> Registros de partidas concluídas para cálculo e exibição das posições no ranking diário, semanal, mensal e geral do grupo.</li>
+      <li><b>Mensagens no App (Mural do Grupo / Conteúdo Gerado pelo Usuário - UGC):</b>
+        <ul>
+          <li>Caso envie recados no mural da sala (seja digitando texto livre ou selecionando mensagens rápidas), o texto, data e identificador do membro são armazenados com segurança em nosso banco de dados (Supabase) para exibição exclusiva aos membros daquele grupo.</li>
+          <li><b>Retenção efêmera e limitada:</b> Cada grupo armazena automaticamente apenas as <b>50 mensagens mais recentes</b>, sendo as mensagens mais antigas descartadas de forma automática pelo servidor.</li>
+          <li><b>Moderação e Segurança (UGC):</b> As mensagens passam por filtros automatizados contra termos ofensivos e os jogadores contam com ferramenta no próprio mural (ícone de bandeira ao lado de cada recado) para <b>ocultar mensagens impróprias imediatamente</b> ou <b>bloquear outros jogadores</b>. Mensagens denunciadas estão sujeitas a remoção e contas abusivas a suspensão.</li>
+        </ul>
+      </li>
     </ul>
-    <p>Para quem informou ter menos de 18 anos, o app pede ao Google <b>anúncios não personalizados</b> e com conteúdo adequado à idade. Veja como o Google usa essas informações em <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
   </section>
 
   <section>
-    <h2>Seu controle sobre os anúncios</h2>
-    <p>Onde a lei exige, como na União Europeia e no Reino Unido, o app pede o seu consentimento antes de mostrar anúncios personalizados.</p>
-    <p>No Android você pode apagar ou redefinir o ID de publicidade e desativar a personalização em <b>Configurações → Google → Anúncios</b>.</p>
+    <h2>3. Cópia de Segurança na Nuvem (Login com Google)</h2>
+    <p>Na seção <i>Minha evolução</i>, o usuário com 13 anos ou mais pode opcionalmente conectar sua <b>Conta Google</b> para salvar uma cópia de segurança do seu progresso:</p>
+    <ul>
+      <li>Coletamos apenas o identificador de usuário gerado pela Conta Google para autenticação segura.</li>
+      <li>Essa cópia permite restaurar seu XP, histórico e grupos em caso de troca de celular ou reinstalação do app.</li>
+      <li>Você pode remover o backup na nuvem a qualquer momento tocando em <b>Apagar da nuvem</b> dentro do aplicativo.</li>
+    </ul>
   </section>
 
   <section>
-    <h2>Crianças e adolescentes</h2>
-    <p>O Cérebro Musculoso é destinado a pessoas a partir de 13 anos. Se o ano de nascimento informado indicar menos de 13 anos, o ranking com amigos fica desligado e os anúncios seguem as regras para crianças. Não coletamos de propósito dados pessoais de crianças.</p>
+    <h2>4. Publicidade (Google AdMob) e Assinaturas (Google Play Billing)</h2>
+    <ul>
+      <li><b>Anúncios:</b> O aplicativo exibe publicidade fornecida pelo <b>Google AdMob</b> (banners, anúncios intersticiais e vídeos com recompensa opcionais). O AdMob pode coletar identificadores técnicos do dispositivo e dados de diagnóstico para veiculação e mensuração de anúncios. Para menores de 13 anos, anúncios personalizados estão permanentemente desativados.</li>
+      <li><b>Assinatura Sem Anúncios:</b> O processamento de pagamentos para a assinatura opcional "Sem anúncios" é realizado integralmente pelo <b>Google Play Billing</b>. A BOSYN não coleta, não processa e não armazena dados de cartão de crédito ou informações financeiras.</li>
+    </ul>
   </section>
 
   <section>
-    <h2>Como excluir sua conta e seus dados</h2>
-    <p>No app, abra <b>Amigos</b> e toque em <b>Excluir minha conta</b> (é preciso tocar duas vezes para confirmar). Isso apaga na hora a conta, o apelido, as partidas e as participações em grupos. Grupos que ficarem vazios também são apagados.</p>
-    <p>Se você não tiver mais o app, peça a exclusão pelo e-mail abaixo. Mais detalhes em <a href="excluir-conta-cerebro-musculoso.html">Excluir conta do Cérebro Musculoso</a>.</p>
-    <p>O progresso guardado só no aparelho é apagado ao desinstalar o app ou limpar os dados dele nas configurações do Android.</p>
+    <h2>5. Compartilhamento de Dados</h2>
+    <p><b>Não vendemos, não comercializamos e não compartilhamos</b> quaisquer dados pessoais de usuários com terceiros para fins de marketing ou rastreamento. Os dados trafegam exclusivamente com os provedores de infraestrutura necessários para a operação do aplicativo:</p>
+    <ul>
+      <li><b>Supabase:</b> Hospedagem de banco de dados e APIs do ranking, mural de grupos e backup de progresso.</li>
+      <li><b>Google (AdMob, Play Services, Play Billing):</b> Exibição de anúncios, autenticação opcional e processamento de assinaturas.</li>
+    </ul>
   </section>
 
   <section>
-    <h2>Segurança e guarda dos dados</h2>
-    <p>Os dados do ranking viajam criptografados (HTTPS) e ficam num banco protegido: o app só consegue ler e alterar o que pertence à própria conta, e o ranking de um grupo só é visível para quem participa dele. Os dados ficam guardados enquanto a conta existir. Os dados de anúncios são guardados e apagados pelo Google conforme a política dele: <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</p>
-    <p>Não vendemos dados pessoais.</p>
+    <h2>6. Direitos do Usuário e Exclusão de Conta (LGPD)</h2>
+    <p>Em conformidade com a LGPD e as políticas do Google Play, você tem controle total sobre os seus dados:</p>
+    <ul>
+      <li><b>Exclusão direta no aplicativo:</b> Acesse a tela <i>Amigos</i> e toque duas vezes no botão <b>Excluir minha conta</b>. Isso apaga instantaneamente seu apelido, suas participações em grupos, recados no mural e histórico de pontuação do servidor. Na tela <i>Minha evolução</i>, o botão <b>Apagar da nuvem</b> exclui o backup do progresso.</li>
+      <li><b>Solicitação pela web:</b> Você também pode solicitar a exclusão de dados e conferir orientações em nossa página de <a href="excluir-conta-cerebro-musculoso.html">Exclusão de Conta</a>.</li>
+    </ul>
   </section>
 
   <section>
-    <h2>Seus direitos (LGPD)</h2>
-    <p>Você pode pedir acesso, correção ou exclusão dos seus dados a qualquer momento pelo e-mail abaixo, além de usar a exclusão dentro do app.</p>
+    <h2>7. Alterações desta Política</h2>
+    <p>Esta Política de Privacidade pode ser atualizada ocasionalmente para refletir melhorias do aplicativo ou novas diretrizes regulatórias. A data da última modificação constará sempre no topo desta página.</p>
   </section>
 
   <section>
-    <h2>Mudanças nesta política</h2>
-    <p>Se esta política mudar, a nova versão será publicada nesta mesma página, com a data atualizada no topo.</p>
-  </section>
-
-  <section>
-    <h2>Contato</h2>
+    <h2>8. Contato e Encarregado de Proteção de Dados (DPO)</h2>
     <div class="contato">
       <b>BOSYN, desenvolvedora do Cérebro Musculoso</b><br>
-      E-mail: diretoralexfigueiras@gmail.com
+      Responsável / Encarregado: Alex<br>
+      E-mail: <a href="mailto:diretoralexfigueiras@gmail.com">diretoralexfigueiras@gmail.com</a> ou <a href="mailto:contato@bosyn.com.br">contato@bosyn.com.br</a><br>
+      Site: <a href="https://alexfigueiras.github.io">https://alexfigueiras.github.io</a>
     </div>
   </section>
 </main>
